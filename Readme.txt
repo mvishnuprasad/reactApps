@@ -1,4 +1,3 @@
-React Course By Bob FCC
+React apps
 
-https://www.youtube.com/watch?v=bMknfKXIFA8&t=16974s
-
+consoling a  jsx elemnt return s JSOn with all infos
