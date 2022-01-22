@@ -43,12 +43,45 @@ function Circle(){
 
 console.log(shape);
 
+const navbar = (
+    <nav>
+        <h1>Navbar</h1>
+        <ul>
+
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            </ul>
+    </nav>
+)
+const js = (
+    <div>
+        <h1>Li River</h1>
+        <p>The Li River or Li Jiang (Chinese: 漓江; pinyin: Lí Jiāng)
+             is the name for the upper reaches of the Gui River in northwestern Guangxi, China. It is part of the Xijiang River system in the Pearl River Basin. The river flows 164 kilometres (102 mi) from Xing'an County to Pingle County, 
+            where the karst mountains and river sights highlight the famous Li River cruise.</p>
+            <ul>
+                <li>The Li River originates in the Mao'er Mountains in Xing'an County </li>
+                <li>The Li River is the longest river in the world</li>
+                <li>The Li River is the second longest river in China</li>
+
+            </ul>
+    </div>
+)
+
 ReactDOM.render(
 /* <div>
     <Rectangle/>
     <Circle/>
 
-</div>, */
-shape,
+</div>,
+shape, */
+navbar,
  document.getElementById("root")  
 )
+
+
+document.getElementById("root").append(JSON.stringify(js))
+
+
+//jsx return plain js object . but reactdom turns it into real DOM elements
